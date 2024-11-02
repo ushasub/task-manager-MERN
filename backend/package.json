@@ -9,7 +9,9 @@
     "client": "npm start -prefix ../frontend",
     "build": "npm install && cd ../frontend && npm install && npm run build"
   },
-  
+  "engines" : {
+    "node": "18.x"
+  }
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -18,6 +20,7 @@
     "body-parser": "^1.20.3",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.6.1"
   },
